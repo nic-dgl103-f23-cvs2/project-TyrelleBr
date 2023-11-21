@@ -13,7 +13,7 @@ header ul   {
 }
 
 header {
-    background-color: #93d500;
+    background-color: #1a5632;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -35,10 +35,62 @@ header .market-logo {
     width: 8rem;
 }
 
+/* styling for hero section */
 
+section.hero {
+    background-image: url(images/blueberry-tomato.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hero-content {
+    max-width: 75%;
+    margin: auto;
+}
+
+.hero ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.hero h1 {
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 0 1px black;
+}
+
+.hero h2 {
+    color: #ffffff;
+    text-shadow: 0 1px black;
+}
+
+.hero h3 {
+    color: #ffffff;
+    text-shadow: 0 1px black;
+}
+
+.hero p {
+    color: #ffff;
+    text-shadow: 0 1px black;
+}
+
+
+
+
+/* call to action */
+
+section.call-to-action {
+    background-color: #c9ea7f;
+}
 
 
 
 .call-to-action-img {
-    max-width: 100%;
+    max-width: 50%;
 }
+
+
