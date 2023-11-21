@@ -95,7 +95,7 @@ section.call-to-action {
     flex-direction: row;
     text-align: center;
     background-color: #AAD576;
-    color: #ffffff;
+    color: #3f3f3f;
     text-shadow: 0 1px rgb(132, 132, 132);
 }
 
@@ -108,7 +108,7 @@ section.call-to-action {
     width: 80%;
     padding: 10px;
     margin: auto;
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -119,9 +119,9 @@ section.call-to-action {
 }
 
 .call-to-action-content a {
-    color: #ffffff  ;
+    color: #1a5632  ;
     text-decoration: none;
-    outline: 1px solid #ffffff;
+    outline: 1px solid #1a5632;
     padding: 3px 6px;
     border-radius: 3px;
     width: 75%;
