@@ -78,7 +78,13 @@ section.hero {
     text-shadow: 0 1px black;
 }
 
-
+.hero a {
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
 
 
 /* call to action */
@@ -118,6 +124,73 @@ section.call-to-action {
     outline: 1px solid #ffffff;
     padding: 3px 6px;
     border-radius: 3px;
-
+    width: 75%;
+    margin: auto;
 }
 
+/* footer */
+
+footer {
+    background-color: #222222;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 20px;
+}
+
+footer ul a {
+    text-decoration: none;
+}
+
+footer h3 {
+    margin: 0;
+    color: #2EA3F2;
+}
+
+.footer-faq {
+    border-bottom: 1px solid #000000;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.faq-heading {
+    padding: 50px 0 20px 0
+}
+
+.footer-contact {
+    border-top: 1px solid #000000;
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+.disclaimer {
+    border-top: 1px solid #000000;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .call-to-action a {
+        width: 25%;
+        margin: auto;
+    }
+
+    footer
+}
