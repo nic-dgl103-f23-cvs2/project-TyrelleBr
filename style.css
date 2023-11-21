@@ -1,0 +1,44 @@
+html {
+    font: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+/* mobile styling for header */
+
+header ul   {
+    margin-top: 0;
+}
+
+header {
+    background-color: #93d500;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-icons ul {
+    display: none;
+}
+
+header nav {
+    display: none;
+}
+
+.header-icons img {
+    width: 25%;
+}
+
+header .market-logo {
+    width: 8rem;
+}
+
+
+
+
+
+.call-to-action-img {
+    max-width: 100%;
+}
