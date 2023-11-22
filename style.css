@@ -39,6 +39,8 @@ header .market-logo {
 
 section.hero {
     background-image: url(images/blueberry-tomato.jpg);
+    background-color: grey;
+    background-blend-mode: multiply;
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,7 +97,7 @@ section.call-to-action {
     flex-direction: row;
     text-align: center;
     background-color: #AAD576;
-    color: #3f3f3f;
+    color: #ffffff;
     text-shadow: 0 1px rgb(132, 132, 132);
 }
 
@@ -119,15 +121,57 @@ section.call-to-action {
 }
 
 .call-to-action-content a {
-    color: #1a5632  ;
+    color: #ffffff;
     text-decoration: none;
-    outline: 1px solid #1a5632;
+    outline: 1px solid #ffffff;
     padding: 3px 6px;
     border-radius: 3px;
     width: 75%;
     margin: auto;
 }
+/* vendor signup */
 
+section.vendor-signup {
+    background-image: url(images/carrots.jpg);
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.vendor-content {
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.vendor-signup h2 {
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 0 1px #000000;
+    max-width: 80%;
+    margin: auto;
+}
+
+
+.vendor-signup a {
+    outline: 1px solid #ffffff;
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: #000000 0 1px;
+    max-width: 100px;
+    margin: auto;
+}
 /* footer */
 
 footer {
