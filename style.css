@@ -44,6 +44,12 @@ header nav {
     display: none;
 }
 
+.show-items {
+
+    display: flex;
+
+}
+
 .header-icons img {
     width: 25%;
 }
