@@ -63,7 +63,8 @@ section.hero {
     background-repeat: no-repeat;
     text-align: center;
     padding: 20px 0;
-    height: 500px;
+    min-height: 500px;
+    max-height: ;
 }
 
 .hero-content {
@@ -71,13 +72,19 @@ section.hero {
     flex-direction: column;
     max-width: 75%;
     margin: auto;
-    height: 500px;
+    height: auto;
+    overflow: auto;
 }
 
 
 .hero table {
     color: #ffffff;
     border: 1px solid #ffffff;
+    min-width: 600px;
+}
+
+.hero table caption {
+    text-align: left;
 }
 
 .hero ul {
@@ -110,7 +117,7 @@ section.hero {
 }
 
 .hero .land-acknowledgement {
-    max-width: 80%;
+    max-width: 100%;
 
 }
 
