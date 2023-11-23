@@ -27,6 +27,8 @@ a {
 
 header ul   {
     margin-top: 0;
+    list-style-type: none;
+    margin-right: 25px;
 }
 
 header {
@@ -44,10 +46,27 @@ header nav {
     display: none;
 }
 
+header a {
+    color: #ffffff;
+    text-shadow: #000000;
+    text-decoration: none;
+}
+
+
 .show-items {
-
     display: flex;
+    justify-content: flex-end;
 
+}
+
+.all-header-content {
+    width: 100%;
+}
+
+.logo-hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-icons img {
