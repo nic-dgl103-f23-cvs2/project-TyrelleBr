@@ -155,6 +155,7 @@ div.hero-table {
 
 .hero h2 {
     color: #ffffff;
+    
     text-shadow: 0 1px black;
 }
 
@@ -182,8 +183,8 @@ div.hero-table {
     border: 1px solid #ffffff;
     padding: 5px 10px;
     border-radius: 3px;
-    max-width: 200px;
-    margin: auto;
+    width: 200px;
+
 }
 
 
