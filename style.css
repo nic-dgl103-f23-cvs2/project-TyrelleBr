@@ -387,6 +387,7 @@ footer p {
 
     /* call to action */
     
+    
     .call-to-action-content {
         max-height: 500px;
         display: flex;
@@ -402,12 +403,23 @@ footer p {
         width: 25%;
         margin: auto;
     }
+    
+/* vendor signup */
 
+.vendor-content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.vendor-content h2 {
+    width: 30%;
+}
 /* footer */
 
 .footer-content {
     display: flex;
-    padding: 40px;
+    padding: 30px 40px;
 }
 
 .footer-faq {
@@ -422,6 +434,20 @@ footer p {
 
 .footer-contact {
     width: auto;
+    border: none;
+    padding: 0;
+    margin-top: 0;
 }
 
+.footer-contact ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul {
+    margin: 0;
+}
+
+footer nav h3 {
+    padding-bottom: 25px;
 }
