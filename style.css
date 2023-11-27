@@ -52,7 +52,7 @@ header ul   {
 }
 
 header {
-    background-color: #AAD576;
+    background-color: #889950;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -202,8 +202,8 @@ section.call-to-action {
     flex-wrap: wrap;
     flex-direction: row;
     text-align: center;
-    background-color: #AAD576;
-    color: #000000;
+    background-color: #889950;
+    color: #ffffff;
     text-shadow: 0 1px rgb(132, 132, 132);
     min-height: 180px;
 }
@@ -231,7 +231,7 @@ section.call-to-action {
 .call-to-action-content a {
     color: #ffffff;
     text-decoration: none;
-    background-color: #000000;
+    outline: 1px solid #ffffff;
     padding: 3px 6px;
     border-radius: 3px;
     width: 175px;
