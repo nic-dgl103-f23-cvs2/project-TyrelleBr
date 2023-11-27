@@ -114,6 +114,7 @@ section.hero {
 .hero-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     max-width: 75%;
     margin: auto;
     height: 100%;
@@ -171,9 +172,15 @@ div.hero-table {
     margin: auto;
 }
 
+.hero-bottom {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
 .hero .land-acknowledgement {
-    max-width: 100%;
-    margin: 0;
+    max-width: 450px;
+    margin: auto;
 
 }
 
@@ -184,7 +191,7 @@ div.hero-table {
     padding: 5px 10px;
     border-radius: 3px;
     width: 200px;
-
+    margin: auto ;
 }
 
 
@@ -334,8 +341,87 @@ footer p {
 
 @media only screen and (min-width: 1200px) {
 
+   /* header */
+    
+   header {
+    height: 100px;
+   }
+
+   header .market-logo {
+    width: 300px;
+   }
+
+   header .toggle {
+    display: none;
+   }
+   
+
+   header nav {
+    display: flex;
+   }
+
+   header nav ul {
+    display: flex;
+    gap: 25px;
+    margin: auto;
+   }
+   
+   .all-header-content {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+   }
+
+   
+    /* hero */
+
+    .scroll-message {
+        display: none;
+    }
+
+    .hero .land-acknowledgement {
+        width: 450px;
+        margin: auto;
+    }
+    
+
+    /* call to action */
+    
+    .call-to-action-content {
+        max-height: 500px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .call-to-action-content h2 {
+        width: 300px;
+        margin: auto;
+    }
+    
     .call-to-action a {
         width: 25%;
         margin: auto;
     }
+
+/* footer */
+
+.footer-content {
+    display: flex;
+    padding: 40px;
+}
+
+.footer-faq {
+    width: auto;
+    margin-top: 0;
+    border: none;
+}
+
+.footer-faq h3 {
+    padding-top: 0;
+}
+
+.footer-contact {
+    width: auto;
+}
+
 }
