@@ -56,6 +56,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    min-height: 75px;
 }
 
 .header-icons ul {
@@ -87,6 +88,7 @@ header a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 100%;
 }
 
 .header-icons img {
@@ -94,7 +96,7 @@ header a {
 }
 
 header .market-logo {
-    width: 8rem;
+    width: 16rem;
 }
 
 /* styling for hero section */
@@ -450,4 +452,5 @@ footer nav ul {
 
 footer nav h3 {
     padding-bottom: 25px;
+}
 }

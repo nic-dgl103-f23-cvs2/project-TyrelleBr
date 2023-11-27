@@ -16,6 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@700&family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- header -->
     <header>
         <div class="all-header-content">
           <div class="logo-hamburger">
@@ -26,7 +27,8 @@
          </div>
           <nav id="nav-items">
             <ul>
-              <li><a href="about-us.html">about us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">about us</a></li>
               <li><a href="vendors.html">vendors</a></li>
               <li><a href="blog.html">blog</a></li>
               <li><a href="next-market.html">next market</a></li>
@@ -37,5 +39,61 @@
           </nav>
         </div>
         </header>
+        <!-- vendor signup -->
+        <section class="vendor-signup">
+            <div class="vendor-content">
+            <h2>want to become a vendor? Apply now!</h2>
+            <a href="apply-here.html">apply here</a>
+            </div>
+          </section>
+          <!-- exlore our vendors card section -->
+          <article class="card-1">
+            
+          
+        <!-- footer -->
+    <footer>
+        <div class="footer-content">
+        <div class="footer-faq">
+          <h3 class="faq-heading">have a qestion?</h3>
+          <a href="faq.html">view F.A.Q</a>
+        </div>
+        <div class="footer-nav">
+          <nav>
+            <ul>
+              <li><h3>Navigation</h3></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">about us</a></li>
+              <li><a href="vendors.html">vendors</a></li>
+              <li><a href="blog.html">blog</a></li>
+              <li><a href="next-market.html">next market</a></li>
+              <li><a href="gallery.html">gallery</a></li>
+              <li><a href="apply-here.html">apply here</a></li>
+              <li><a href="contact-us.html">contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="footer-contact">
+          <li><h3>contact us</h3></li>
+          <li><p>info@cvfm.ca</p></li>
+          <li>
+            <p>Box 3301<br />Courtenay, BC<br />V9N 5N5</p>
+          </li>
+        </ul>
+        </div>
+        <div class="disclaimer">
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by the
+            business owner.
+          </p>
+        </div>
+      </footer>
+      <script>
+        function showNav() {
+          var element = document.getElementById("nav-items");
+          element.classList.toggle("show-items");
+        }
+      </script>
 </body>
 </html>
