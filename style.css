@@ -341,6 +341,57 @@ footer p {
 }
 
 
+/* explore our vendors */
+
+.explore-vendors {
+    background-color: #E6E3D3;
+    text-align: center;
+}
+
+.explore-vendors h1 {
+    margin: 0;
+    margin: auto;
+    width: 75%;
+    color: #403F3B;
+    padding-top: 30px;
+}
+
+.explore-vendors img {
+    width: 300px;
+    border-bottom: #889950 8px solid;
+    
+    
+}
+
+.explore-vendors h2 {
+    border: 3px solid #889950;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto;
+    
+}
+
+.explore-vendors h3 {
+    border-bottom: 1px solid #889950;
+    width: 40%;
+    margin: 10px auto;
+   
+}
+
+.explore-vendors p {
+    width: 90%;
+    margin: auto;
+}
+
+.explore-vendors article {
+    max-width: 300px;
+    background-color: #c5cda8;
+    border: 3px solid #889950 ;
+    border-radius: 10px;
+    margin: 40px auto;
+    text-align: center;
+    color: #403F3B;
+}
 @media only screen and (min-width: 1200px) {
 
    /* header */
