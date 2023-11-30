@@ -392,6 +392,19 @@ footer p {
     text-align: center;
     color: #403F3B;
 }
+
+.card-eight .card-content {
+    padding-bottom: 20px;
+}
+
+.explore-vendors .card-eight {
+    margin-bottom: 0px;
+}
+
+.explore-vendors article i {
+    margin: 10px 10px;
+    paddin
+}
 @media only screen and (min-width: 1200px) {
 
    /* header */
