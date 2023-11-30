@@ -69,9 +69,10 @@ header nav {
 }
 
 header a {
-  color: #ffffff;
+  color: #403f3b;
   text-shadow: #000000;
   text-decoration: none;
+  font-weight: 900;
 }
 
 .show-items {
@@ -380,17 +381,17 @@ footer p {
   color: #403f3b;
 }
 
-.card-eight .card-content {
-  padding-bottom: 20px;
-}
-
-.explore-vendors .card-eight {
-  margin-bottom: 0px;
-}
-
 .explore-vendors article i {
   margin: 10px 10px;
 }
+
+.explore-vendors .card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+
+
 @media only screen and (min-width: 1200px) {
   /* header */
 
@@ -498,4 +499,20 @@ footer p {
   footer nav h3 {
     padding-bottom: 25px;
   }
+
+  /* explore our vendors */
+
+
+    .explore-vendors .card-wrapper  {
+      display: flex;
+      align-items: stretch;
+      flex-wrap: wrap;
+      gap: 5rem;
+    }
+
+
+
+
+
+
 }
