@@ -394,11 +394,16 @@ footer p {
 
 
 .contact {
-  background-color: #e6e3d3;
+  background-color: #F5F5F5;
+}
+
+.contact-form-wrapper {
+  width: 300px;
+  margin: auto;
 }
 
 .contact form {
-  width: 500px;
+  width: auto;
   margin: auto;
 }
 
@@ -416,7 +421,7 @@ footer p {
 }
 
 form textarea {
-  width: 100%;
+  width: 98%;
   height: 200px;
 }
 
@@ -427,6 +432,37 @@ label {
 .message-box {
   margin-bottom: 0;
 }
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+
+}
+
+.form-buttons input[type="submit"] {
+  width: 100px;
+  background-color: #889950;
+  border-radius: 2px;
+  color: #F5F5F5;
+  border: none;
+  text-transform: capitalize;
+  padding: 2px;
+}
+
+.form-buttons input[type="reset"] {
+font-weight: 600;
+padding: 2px;
+  text-transform: capitalize;
+  width: 100px;
+  background-color: #F5F5F5;
+  border-radius: 2px;
+  color: #889950;
+  border: none;
+  outline: 2px solid #889950;
+}
+
+
 
 @media only screen and (min-width: 1200px) {
   /* header */
