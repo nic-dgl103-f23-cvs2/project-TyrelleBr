@@ -390,7 +390,43 @@ footer p {
   align-items: center;
 }
 
+/* about page */
 
+
+.contact {
+  background-color: #e6e3d3;
+}
+
+.contact form {
+  width: 500px;
+  margin: auto;
+}
+
+.contact h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+.contact p {
+  font-size: large;
+}
+
+.contact form input {
+  width: 75%;
+}
+
+form textarea {
+  width: 100%;
+  height: 200px;
+}
+
+label {
+  display: block;
+}
+
+.message-box {
+  margin-bottom: 0;
+}
 
 @media only screen and (min-width: 1200px) {
   /* header */
