@@ -1,5 +1,11 @@
 /* global styles */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -386,7 +392,10 @@ footer p {
 .explore-vendors img {
   width: 300px;
   border-bottom: #889950 8px solid;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
+
 
 .explore-vendors h2 {
   border: 3px solid #889950;
@@ -427,8 +436,88 @@ footer p {
   
 }
 
+.explore-vendors h2 {
+ width: 73%; 
+ padding: 2px 20px;
+}
+
 /* about page */
 
+/* our story section */
+
+
+/* FAQ section */
+
+.faq h2 {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  color: #f5f5f5;
+  text-shadow: 1px 0 #181818;
+  padding: 20px;
+}
+
+section.faq {
+  background-color: #889950;
+}
+
+.faq .content p {
+  width: 80%;
+  margin: auto;
+}
+
+#drop-down {
+  margin: 100px auto;
+  margin-top: 0;
+  width: 70%;
+  padding-left: 0;
+}
+
+#drop-down li {
+  list-style: none;
+  width: 95%;
+  margin-bottom: 10px;
+  background: #ffffff;
+  padding: 10px 0;
+  border-radius: 4px;
+}
+
+#drop-down li label {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  color: #889950;
+  font-weight: 600;
+  cursor: pointer;
+   
+}
+
+#drop-down li label span {
+  transform: rotate(90deg);
+  font-size: 22px;
+  color: #889950;
+}
+
+#drop-down label + input[type="radio"] {
+  display: none;
+}
+
+#drop-down .content {
+  padding: 0 10px;
+  line-height: 2.6rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+#drop-down label + input[type="radio"]:checked + .content {
+  max-height: 500px;
+}
+
+
+/* contact form */
 
 .contact {
   background-color: #F5F5F5;
