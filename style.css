@@ -535,7 +535,7 @@ section.faq {
 
 .contact h2 {
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 20px;
   color: #383838;
   font-family: "Mukta Malar", sans-serif;
@@ -736,8 +736,20 @@ padding: 2px;
     }
 
 
+/* FAQ */
 
+    .faq #drop-down {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+    }
 
+    .faq h2 {
+      padding: 50px 0;
+     
+    }
+
+   /* contact us form */
 
 
 }
