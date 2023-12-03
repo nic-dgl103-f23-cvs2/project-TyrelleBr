@@ -56,10 +56,11 @@ header ul {
   margin-top: 0;
   list-style-type: none;
   margin-right: 25px;
+  padding-bottom: 10px;
 }
 
 header {
-  background-color: #889950;
+  background-color: #386641;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -79,6 +80,7 @@ header a {
   text-shadow: 1px 0 #000000;
   text-decoration: none;
   font-weight: 900;
+  padding-bottom: px;
 }
 
 .show-items {
@@ -191,16 +193,6 @@ div.hero-table {
   margin: auto;
 }
 
-.hero a {
-  color: #F5F5F5;
-  text-decoration: none;
-  border: 2px solid #F5F5F5;
-  padding: 5px 10px;
-  border-radius: 3px;
-  width: 200px;
-  margin: auto;
-}
-
 /* call to action */
 
 section.call-to-action {
@@ -208,7 +200,7 @@ section.call-to-action {
   flex-wrap: wrap;
   flex-direction: row;
   text-align: center;
-  background-color: #889950;
+  background-color: #386641;
  
   
   min-height: 180px;
@@ -292,7 +284,7 @@ section.vendor-signup {
 /* location map section */
 
   .location-map {
-    background-color: #889950;
+    background-color: #386641;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -385,27 +377,27 @@ footer p {
   margin: 0;
   margin: auto;
   width: 75%;
-  color: #403f3b;
+  color: #386641;
   padding-top: 30px;
 }
 
 .explore-vendors img {
-  width: 300px;
-  border-bottom: #889950 8px solid;
+  width: 296px;
+  border-bottom: #386641 8px solid;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
 }
 
 
 .explore-vendors h2 {
-  border: 3px solid #889950;
+  border: 3px solid #386641;
   border-radius: 5px;
   width: 80%;
   margin: 10px auto;
 }
 
 .explore-vendors h3 {
-  border-bottom: 1px solid #889950;
+  border-bottom: 1px solid #386641;
   width: 40%;
   margin: 10px auto;
 }
@@ -417,8 +409,8 @@ footer p {
 
 .explore-vendors article {
   max-width: 300px;
-  background-color: #c5cda8;
-  border: 3px solid #889950;
+  background-color: #f2e8cf;
+  border: 3px solid #386641;
   border-radius: 10px;
   margin: 40px auto;
   text-align: center;
@@ -446,6 +438,34 @@ footer p {
 /* our story section */
 
 
+  section.our-story {
+    background-image: url(images/Comox-Valley-Farmers-Market-2018-Cumberland-4-2048.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #6c6c6c;
+  background-blend-mode: multiply;
+   
+  }
+
+
+  .our-story h2 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 0 #000;
+    padding: 20px;
+  }
+
+  .our-story p {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 0 #000;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    line-height: 2.5rem;
+    font-weight: 500;
+  }
 /* FAQ section */
 
 .faq h2 {
@@ -458,7 +478,7 @@ footer p {
 }
 
 section.faq {
-  background-color: #889950;
+  background-color: #386641;
 }
 
 .faq .content p {
@@ -488,7 +508,7 @@ section.faq {
   align-items: center;
   justify-content: space-between;
   font-size: 1.8rem;
-  color: #889950;
+  color: #386641;
   font-weight: 600;
   cursor: pointer;
    
@@ -574,12 +594,12 @@ label {
 
 .form-buttons input[type="submit"] {
   width: 100px;
-  background-color: #889950;
+  background-color: #386641;
   border-radius: 2px;
   color: #F5F5F5;
   border: none;
   text-transform: capitalize;
-  padding: 2px;
+  padding: 3px 0 2px 0;
   outline: none;
 }
 
@@ -590,9 +610,9 @@ padding: 2px;
   width: 100px;
   background-color: #F5F5F5;
   border-radius: 2px;
-  color: #889950;
+  color: #386641;
   border: none;
-  outline: 2px solid #889950;
+  outline: 2px solid #386641;
 }
 
 
