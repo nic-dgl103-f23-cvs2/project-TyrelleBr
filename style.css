@@ -278,7 +278,7 @@ section.vendor-signup {
   text-decoration: none;
   text-transform: capitalize;
   text-shadow: #000000 0 1px;
-  max-width: 100px;
+  max-width: 400px;
   margin: auto;
 }
 /* location map section */
@@ -755,6 +755,25 @@ padding: 2px;
       margin: auto;
     }
 
+/* our story */
+
+
+.our-story {
+  height: 500px;
+}
+
+.our-story h2 {
+  padding: 50px 0;
+}
+
+.our-story-content  {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  justify-content: space-around;
+}
 
 /* FAQ */
 
@@ -768,6 +787,7 @@ padding: 2px;
       padding: 50px 0;
      
     }
+
 
    /* contact us form */
 
