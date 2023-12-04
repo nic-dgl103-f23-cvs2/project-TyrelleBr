@@ -76,7 +76,7 @@ header nav {
 }
 
 header a {
-  color: #F5F5F5;
+  color: #f5f5f5;
   text-shadow: 1px 0 #000000;
   text-decoration: none;
   font-weight: 900;
@@ -201,17 +201,16 @@ section.call-to-action {
   flex-direction: row;
   text-align: center;
   background-color: #386641;
- 
-  
+
   min-height: 180px;
 }
 
 .call-to-action h2 {
   width: 100%;
-  margin-top: 0; 
+  margin-top: 0;
   padding-top: 20px;
-  color: #F5F5F5;
-  text-shadow: 1PX 0 #181818;
+  color: #f5f5f5;
+  text-shadow: 1px 0 #181818;
 }
 
 .call-to-action-content {
@@ -283,32 +282,28 @@ section.vendor-signup {
 }
 /* location map section */
 
-  .location-map {
-    background-color: #386641;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.location-map {
+  background-color: #386641;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
-  }
+.location-map iframe {
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
-  .location-map iframe {
-    max-width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-
-  .location-map h2 {
-    margin-top: 0;
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    padding: 20px 0;
-    color: #f5f5f5;
-    text-shadow: 1px 0 #181818;
-  }
-
-
-
+.location-map h2 {
+  margin-top: 0;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0;
+  color: #f5f5f5;
+  text-shadow: 1px 0 #181818;
+}
 
 /* footer */
 
@@ -337,8 +332,6 @@ footer h3 {
   border-bottom: 1px solid #000000;
   width: 90%;
   margin: auto;
-  padding-top: ;
-  
 }
 
 .faq-heading {
@@ -389,7 +382,6 @@ footer p {
   border-top-left-radius: 8px;
 }
 
-
 .explore-vendors h2 {
   border: 3px solid #386641;
   border-radius: 5px;
@@ -426,18 +418,16 @@ footer p {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  
 }
 
 .explore-vendors h2 {
- width: 73%; 
- padding: 2px 20px;
+  width: 73%;
+  padding: 2px 20px;
 }
 /* vendor appreciation video */
 
 .vendor-video {
   height: 211px;
- 
 }
 
 .vendor-video iframe {
@@ -445,41 +435,36 @@ footer p {
   height: 100%;
 }
 
-
-
 /* about page */
 
 /* our story section */
 
-
-  section.our-story {
-    background-image: url(images/Comox-Valley-Farmers-Market-2018-Cumberland-4-2048.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-color: #6c6c6c;
+section.our-story {
+  background-image: url(images/Comox-Valley-Farmers-Market-2018-Cumberland-4-2048.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #6c6c6c;
   background-blend-mode: multiply;
-   
-  }
+}
 
+.our-story h2 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 0 #000;
+  padding: 20px;
+}
 
-  .our-story h2 {
-    color: #fff;
-    text-align: center;
-    text-shadow: 1px 0 #000;
-    padding: 20px;
-  }
-
-  .our-story p {
-    color: #fff;
-    text-align: center;
-    text-shadow: 1px 0 #000;
-    padding-bottom: 20px;
-    width: 80%;
-    margin: auto;
-    line-height: 2.5rem;
-    font-weight: 500;
-  }
+.our-story p {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 0 #000;
+  padding-bottom: 20px;
+  width: 80%;
+  margin: auto;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
 /* FAQ section */
 
 .faq h2 {
@@ -525,7 +510,6 @@ section.faq {
   color: #386641;
   font-weight: 600;
   cursor: pointer;
-   
 }
 
 #drop-down li label span {
@@ -550,11 +534,10 @@ section.faq {
   max-height: 500px;
 }
 
-
 /* contact form */
 
 .contact {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .contact-form-wrapper {
@@ -581,7 +564,6 @@ section.faq {
 
 .contact form input {
   width: 75%;
-
 }
 
 form textarea {
@@ -592,7 +574,7 @@ form textarea {
 label {
   display: block;
   padding-bottom: 5px;
-  font-family: "Rubik", sans-serif
+  font-family: "Rubik", sans-serif;
 }
 
 .message-box {
@@ -603,14 +585,13 @@ label {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-
 }
 
 .form-buttons input[type="submit"] {
   width: 100px;
   background-color: #386641;
   border-radius: 2px;
-  color: #F5F5F5;
+  color: #f5f5f5;
   border: none;
   text-transform: capitalize;
   padding: 3px 0 2px 0;
@@ -618,18 +599,16 @@ label {
 }
 
 .form-buttons input[type="reset"] {
-font-weight: 600;
-padding: 2px;
+  font-weight: 600;
+  padding: 2px;
   text-transform: capitalize;
   width: 100px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   border-radius: 2px;
   color: #386641;
   border: none;
   outline: 2px solid #386641;
 }
-
-
 
 @media only screen and (min-width: 1200px) {
   /* header */
@@ -703,7 +682,7 @@ padding: 2px;
     width: 30%;
   }
 
-/* location map section */
+  /* location map section */
 
   .location-map {
     flex-direction: row;
@@ -718,7 +697,6 @@ padding: 2px;
     width: 50%;
     margin: 20px;
   }
-
 
   /* footer */
 
@@ -759,57 +737,50 @@ padding: 2px;
 
   /* explore our vendors */
 
+  .explore-vendors .card-wrapper {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 5rem;
+    max-width: 90%;
+    margin: auto;
+  }
 
-    .explore-vendors .card-wrapper  {
-      display: flex;
-      align-items: stretch;
-      flex-wrap: wrap;
-      gap: 5rem;
-      max-width: 90%;
-      margin: auto;
-    }
+  /* vendor appreciation video */
 
-/* vendor appreciation video */
+  .vendor-video {
+    height: 676px;
+  }
 
-    .vendor-video {
-      height: 676px;
-    }
+  /* our story */
 
-/* our story */
+  .our-story {
+    height: 500px;
+  }
 
+  .our-story h2 {
+    padding: 50px 0;
+  }
 
-.our-story {
-  height: 500px;
-}
+  .our-story-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-around;
+  }
 
-.our-story h2 {
-  padding: 50px 0;
-}
+  /* FAQ */
 
-.our-story-content  {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  height: 100%;
-  margin: auto;
-  justify-content: space-around;
-}
+  .faq #drop-down {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-/* FAQ */
+  .faq h2 {
+    padding: 50px 0;
+  }
 
-    .faq #drop-down {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      
-    }
-
-    .faq h2 {
-      padding: 50px 0;
-     
-    }
-
-
-   /* contact us form */
-
-
+  /* contact us form */
 }
