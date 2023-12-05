@@ -237,10 +237,18 @@ section.call-to-action {
   outline: 2px solid #f5f5f5;
   padding: 3px 6px;
   border-radius: 3px;
-  width: 175px;
+  width: 200px;
   margin: auto;
   font-weight: 600;
   text-shadow: 1px 0 #181818;
+  transition: width 1s;
+
+}
+
+.call-to-action-content a:hover {
+  width: 350px;
+  height: 25px;
+  
 }
 /* vendor signup */
 
@@ -281,8 +289,13 @@ section.vendor-signup {
   text-decoration: none;
   text-transform: capitalize;
   text-shadow: #000000 0 1px;
-  max-width: 400px;
+
   margin: auto;
+  transition: width 1s;
+}
+
+.vendor-signup a:hover {
+  width: 200px;
 }
 /* location map section */
 
@@ -318,7 +331,7 @@ footer {
 
 footer ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px 0;
   line-height: 20px;
 }
 
@@ -336,6 +349,7 @@ footer h3 {
   border-bottom: 1px solid #000000;
   width: 90%;
   margin: auto;
+  padding-bottom: 10px;
 }
 
 .faq-heading {
@@ -348,9 +362,19 @@ footer h3 {
   margin: auto;
 }
 
+
+.footer-contact p {
+  padding: 10px 0;
+}
+
 footer a {
   color: #ffffff;
   text-decoration: none;
+  transition: color 1ms;
+}
+
+footer a:hover {
+  color: #2ea3f2;
 }
 
 footer p {
@@ -363,6 +387,10 @@ footer p {
   margin: auto;
   padding: 20px 0;
   font-style: italic;
+}
+
+footer nav h3 {
+  padding-bottom: 10px;
 }
 
 /* explore our vendors */
