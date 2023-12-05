@@ -460,12 +460,18 @@ footer nav h3 {
 /* vendor appreciation video */
 
 .vendor-video {
-  height: 211px;
+  background-color: #e6e3d3;
+  width: 100%;
+}
+
+.vendor-video .video-wrapper {
+margin: auto;
+width: auto;
+ 
 }
 
 .vendor-video iframe {
-  width: 100%;
-  height: 100%;
+  margin: auto;
 }
 
 /* about page */
