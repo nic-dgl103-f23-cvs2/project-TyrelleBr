@@ -80,7 +80,11 @@ header a {
   text-shadow: 1px 0 #000000;
   text-decoration: none;
   font-weight: 900;
-  padding-bottom: px;
+  transition: color 1ms;
+}
+
+header a:hover {
+  color: #2ea3f2;
 }
 
 .show-items {
@@ -346,6 +350,7 @@ footer h3 {
 
 footer a {
   color: #ffffff;
+  text-decoration: none;
 }
 
 footer p {
@@ -486,11 +491,18 @@ section.faq {
 }
 
 #drop-down {
-  margin: 100px auto;
+  margin: 100px auto 0;
   margin-top: 0;
   width: 70%;
-  padding-left: 0;
+  padding: 0 0 20px 0;
+  
 }
+
+#drop-down .eleventh  {
+  margin-bottom: 0;
+  
+}
+
 
 #drop-down li {
   list-style: none;
@@ -499,6 +511,11 @@ section.faq {
   background: #ffffff;
   padding: 10px 0;
   border-radius: 4px;
+  transition: border 1ms;
+}
+
+#drop-down li:hover {
+ border: 3px solid #2ea3f2; 
 }
 
 #drop-down li label {
