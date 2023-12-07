@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@700&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="all-header-content">
+        <div class="logo-hamburger">
+          <a href="index.html"
+            ><img class="market-logo" src="images/cvfm-logo.png" alt="comox valley farmers' market logo"
+          /></a>
+          <a class="toggle" onclick="showNav()"
+            ><i class="fa fa-bars" aria-hidden="true"></i
+          ></a>
+        </div>
+        <nav id="nav-items">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">about us</a></li>
+            <li><a href="vendors.html">vendors</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="next-market.html">next market</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="apply-here.html">apply here</a></li>
+            <li><a href="#contact-us">contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- our story section -->
+
+    <section class="our-story">
+      <div class="our-story-content">
+        <h2>Our Story</h2>
+        <p>
+          The Comox Valley Farmers’ Market Association in a not for profit
+          society that has been bringing local food to local folks since 1992.
+          Over the last twenty-five plus years we have grown from a seasonal
+          Saturday market with a dozen vendors selling product off the tailgate
+          of their pickup truck to a year-round Saturday market and two seasonal
+          markets with over one hundred vendors selling a wide array of products
+          that are grown, made, baked, raised or wild harvested within the Comox
+          Valley and Strathcona Regional District.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="section-faq" class="faq">
+      <h2>Frequently asked questions</h2>
+      <ul id="drop-down">
+        <li>
+          <label for="first"
+            >Can I sell crafts at the market? <span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="first" checked />
+          <div class="content">
+            <p>
+              No, our market is a food only farmers’ market and at this time we
+              do not accept applications for crafters.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="second"
+            >When are fruit and veggetable picked?<span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="second" />
+          <div class="content">
+            <p>
+              Our farmers strive to bring you the freshest produce possible.
+              Most produce is harvested and packaged (product dependant) within
+              24 hours or less of market day. Some products, such as garlic,
+              require curing prior to being sold at the market.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="third"
+            >Are dogs allowed at the market?<span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="third" />
+          <div class="content">
+            <p>
+              While we certainly love all animals, dogs (other than service
+              dogs) and other pets are not permitted at any of the Comox Valley
+              Farmer’s Market venues. You are encouraged to leave your pets at
+              home and not in your vehicle. We appreciate your understanding and
+              support.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="fourth"
+            >Do you have a lost and found location at the market?
+            <span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="fourth" />
+          <div class="content">
+            <p>
+              Yes, any lost and found items can be picked up or inquired about
+              at the market Information Booth. The staff and volunteers can
+              assit you.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="fifth"
+            >I forgot to bring cash or I need more money what do I do?
+            <span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="fifth" />
+          <div class="content">
+            <p>
+              You are able to use your debit or credit card to purchase market
+              tokens. Market tokens or wooden nickles as they are sometimes
+              referred to are accepted by all of our vendors and act like cash.
+              They tokens come in $5 increments, do not expire, are good year
+              round at all of our markets. If you do not spend the value of the
+              token the vendor will give you the appropriate change. You can
+              purchase these tokens at the Market Information Tent.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="sixth"
+            >How do I become a Vendor? <span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="sixth" />
+          <div class="content">
+            <p>
+              Applying to become a vendor is simple. Head to the “Apply Here”
+              section of our website. Before filling out an application please
+              make sure you carfefully read the section titled “New Applicants”
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="seventh"
+            >Where are all the products at the market grown?
+            <span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="seventh" />
+          <div class="content">
+            <p>
+              All the product sold at the market comes from the Comox Valley
+              Regional District or the Strathcona Regional District.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="eighth"
+            >I forgot to bring my bag, what can I do?<span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="eighth" />
+          <div class="content">
+            <p>We sell reusable cloth bags at the information desk.</p>
+          </div>
+        </li>
+        <li>
+          <label for="nineth"
+            >Where is the ATM located?/Where can I purchase tokens?
+            <span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="nineth" />
+          <div class="content">
+            <p>
+              Although we do not have an actual ATM onsite, you are able to use
+              your debit or credit card to purchase market tokens or wooden
+              nickels as they are often called. Tokens act as “market money” and
+              are accepted by all of our vendors. Regular money is given back as
+              change when a transaction is less than the amount of tokens given
+              for the purchase. You can purchase tokens at the Market
+              Information Desk. Note that at our Fall/Winter markets are located
+              at the Native Sons Hall in Downtown Courtenay and there are
+              several ATM’s located within a few blocks. Both of our seasonal
+              summer markets are also located within a few block radius of an
+              ATM.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="tenth"
+            >How long has the market been around? <span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="tenth" />
+          <div class="content">
+            <p>The Comox Valley Farmers’ Market began on May 2, 1992.</p>
+          </div>
+        </li>
+        <li class="eleventh">
+          <label for="eleventh"
+            >Are dogs allowed at the market.market?<span>&#x3e;</span></label
+          >
+          <input type="radio" name="drop-down" id="eleventh" />
+          <div class="content">
+            <p>
+              While we certainly love all animals, dogs (other than service
+              dogs) and other pets are not permitted at any of the Comox Valley
+              Farmer’s Market venues. You are encouraged to leave your pets at
+              home and not in your vehicle. We appreciate your understanding and
+              support.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- contact us form -->
+    <section id="contact-us" class="contact">
+      <h2>Contact us</h2>
+      <div class="contact-form-wrapper">
+        <form action="/contact" method="post">
+          <p>
+            <label for="fname">First name</label>
+            <input
+              id="fname"
+              type="text"
+              name="first_name"
+              placeholder="Ex: Johnny"
+            />
+          </p>
+          <p>
+            <label for="lname">Last name</label>
+            <input
+              type="text"
+              id="lname"
+              name="last_name"
+              placeholder="Ex: Appleseed"
+            />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Ex: johhnyappleseed@nic.bc.ca"
+              required
+            />
+          </p>
+          <p class="message-box">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="write your inquiry here."
+            ></textarea>
+          </p>
+          <div class="form-buttons">
+            <input type="reset" value="reset" />
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-faq">
+          <h3 class="faq-heading">have a qestion?</h3>
+          <a href="#section-faq">view F.A.Q</a>
+        </div>
+        <div class="footer-nav">
+          <nav>
+            <ul>
+              <li><h3>Navigation</h3></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">about us</a></li>
+              <li><a href="vendors.html">vendors</a></li>
+              <li><a href="blog.html">blog</a></li>
+              <li><a href="next-market.html">next market</a></li>
+              <li><a href="gallery.html">gallery</a></li>
+              <li><a href="apply-here.html">apply here</a></li>
+              <li><a href="#contact-us">contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="footer-contact">
+          <li><h3>contact us</h3></li>
+          <li><p>info@cvfm.ca</p></li>
+          <li>
+            <p>Box 3301<br />Courtenay, BC<br />V9N 5N5</p>
+          </li>
+        </ul>
+      </div>
+      <div class="disclaimer">
+        <p>
+          This is a fictional website that was designed and coded as an
+          educational exercise. It is not intended to be seen outside of the
+          class environment. None of the content and images were approved by the
+          business owner.
+        </p>
+      </div>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
