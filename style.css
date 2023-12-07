@@ -50,7 +50,9 @@ th {
   font-size: 1.2rem;
 }
 
-/* mobile styling for header */
+/* ===== home page ====== */
+
+/* header */
 
 header ul {
   margin-top: 0;
@@ -92,7 +94,7 @@ header i {
   transition: rotate 1s;
 }
 
-header i:onclick {
+header i:hover {
   rotate: 180deg;
 }
 
@@ -256,10 +258,9 @@ section.call-to-action {
 
 .call-to-action-content a:hover {
   color: #2ea3f2;
-  outline:#2ea3f2 2px solid;
-  
+  outline: #2ea3f2 2px solid;
 }
-/* vendor signup */
+/* vendor signup (also applied to vendors page) */
 
 section.vendor-signup {
   background-image: url(images/carrots.jpg);
@@ -301,7 +302,6 @@ section.vendor-signup {
   margin: auto;
   transition: outline 1ms;
   transition: color 1ms;
-
 }
 
 .vendor-signup a:hover {
@@ -373,7 +373,6 @@ footer h3 {
   margin: auto;
 }
 
-
 .footer-contact p {
   padding: 10px 0;
 }
@@ -403,6 +402,8 @@ footer p {
 footer nav h3 {
   padding-bottom: 10px;
 }
+
+/* ====== vendor page ====== */
 
 /* explore our vendors */
 
@@ -485,7 +486,6 @@ footer nav h3 {
   height: 225px;
 }
 
-
 .vendor-video iframe {
   width: 90%;
   display: block;
@@ -493,7 +493,7 @@ footer nav h3 {
   height: 90%;
 }
 
-/* about page */
+/* ====== about page ===== */
 
 /* our story section */
 
@@ -548,14 +548,12 @@ section.faq {
   margin-top: 0;
   width: 70%;
   padding: 0 0 20px 0;
-  
 }
 
-#drop-down .eleventh  {
+#drop-down .eleventh {
+  /* margin-bottom was making it so the section on mobile had a white gap */
   margin-bottom: 0;
-  
 }
-
 
 #drop-down li {
   list-style: none;
@@ -567,11 +565,14 @@ section.faq {
   transition: border 1ms;
 }
 
+/* the code above and below make a transition where a blue border will appear around the questions when hovering */
+
 #drop-down li:hover {
- border: 3px solid #2ea3f2; 
+  border: 3px solid #2ea3f2;
 }
 
 #drop-down li label {
+  /* spaces arrow icon and question with flexbox. this section also turns your cursor into a pointer when hovered */
   padding: 10px;
   display: flex;
   align-items: center;
@@ -583,16 +584,20 @@ section.faq {
 }
 
 #drop-down li label span {
+  /* rotate'
+  s arrow */
   transform: rotate(90deg);
   font-size: 22px;
   color: #889950;
 }
 
 #drop-down label + input[type="radio"] {
+  /* hides radio buttons */
   display: none;
 }
 
 #drop-down .content {
+  /* overflow hidden hides all the other content and transition makes it so it looks smooth when it opens */
   padding: 0 10px;
   line-height: 2.6rem;
   max-height: 0;
@@ -601,6 +606,7 @@ section.faq {
 }
 
 #drop-down label + input[type="radio"]:checked + .content {
+  /* this makes it so when a radio is checked itll reveal the content at max height of 500px */
   max-height: 500px;
 }
 
@@ -680,8 +686,12 @@ label {
   outline: 2px solid #386641;
 }
 
+/* media query for viewports 1200px+ */
+
 @media only screen and (min-width: 1200px) {
-  /* header */
+  /* ====== homepage ====== */
+
+  /* header (applied to all pages) */
 
   header {
     height: 100px;
@@ -740,7 +750,7 @@ label {
     margin: auto;
   }
 
-  /* vendor signup */
+  /* vendor signup (applied to vendors and homepage) */
 
   .vendor-content {
     display: flex;
@@ -768,7 +778,7 @@ label {
     margin: 20px;
   }
 
-  /* footer */
+  /* footer (applied to all pages) */
 
   .footer-content {
     display: flex;
@@ -805,6 +815,8 @@ label {
     padding-bottom: 25px;
   }
 
+  /* ====== vendors page ====== */
+
   /* explore our vendors */
 
   .explore-vendors .card-wrapper {
@@ -819,12 +831,14 @@ label {
   /* vendor appreciation video */
 
   .vendor-video {
-   height: 400px;
+    height: 400px;
   }
 
   .vendor-video iframe {
     width: 40%;
   }
+
+  /* ====== about page ====== */
 
   /* our story */
 
@@ -855,6 +869,4 @@ label {
   .faq h2 {
     padding: 50px 0;
   }
-
-  /* contact us form */
 }
